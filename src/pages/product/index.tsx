@@ -128,7 +128,12 @@ export default function ProductsPage({
         {products.map((product) => (
           <div key={product.id} className={styles.card}>
             <div className={styles.imageContainer}>
-              <Image src={product.imageUrl} alt={product.name} fill objectFit="cover" />
+              <Image
+                src={product.imageUrl}
+                alt={product.name}
+                fill
+                objectFit="cover"
+              />
             </div>
             <div className={styles.cardContent}>
               <h2>{product.name}</h2>
@@ -145,7 +150,9 @@ export default function ProductsPage({
 }
 
 export const getServerSideProps: GetServerSideProps = async () => {
-  const response = await fetch(`http://localhost:3000/api/products`);
+  const response = await fetch(
+    `${process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000"}/api/products`
+  );
   const data: ProductsResponse = await response.json();
 
   const categories = Array.from(
