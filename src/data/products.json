@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop Premium",
+      "description": "Laptop berkinerja tinggi untuk kebutuhan profesional",
+      "price": 15000000,
+      "category": "Electronics",
+      "stock": 50,
+      "imageUrl": "https://images.pexels.com/photos/18105/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 2,
+      "name": "Smartphone X",
+      "description": "Smartphone dengan kamera canggih dan baterai tahan lama",
+      "price": 8000000,
+      "category": "Electronics",
+      "stock": 100,
+      "imageUrl": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 3,
+      "name": "Product 3",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 2000000,
+      "category": "Audio",
+      "stock": 75,
+      "imageUrl": "https://images.pexels.com/photos/815494/pexels-photo-815494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 4,
+      "name": "Product 4",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 3500000,
+      "category": "Wearables",
+      "stock": 60,
+      "imageUrl": "https://images.pexels.com/photos/1682821/pexels-photo-1682821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 5,
+      "name": "Product 5",
+      "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "price": 12000000,
+      "category": "Photography",
+      "stock": 25,
+      "imageUrl": "https://images.pexels.com/photos/51383/photo-camera-subject-photographer-51383.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    }
+  ]
+}
